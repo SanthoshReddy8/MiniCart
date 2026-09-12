@@ -1,0 +1,8 @@
+:root { font-family: Georgia, 'Times New Roman', serif; color: #17221c; background: #e8eee6; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.shell { min-height: 100vh; padding: clamp(2rem, 8vw, 8rem); display: grid; align-content: center; background: radial-gradient(circle at 80% 15%, #f8d8a8 0 12%, transparent 13%), linear-gradient(135deg, #e8eee6, #c7d8ca); }
+.eyebrow { font: 700 0.75rem/1.2 Arial, sans-serif; letter-spacing: 0.18em; color: #a3482b; }
+h1 { max-width: 720px; margin: 0.5rem 0 1rem; font-size: clamp(3rem, 8vw, 7rem); line-height: 0.94; font-weight: 500; }
+.lede { max-width: 560px; font-size: 1.2rem; line-height: 1.5; }
+.action { width: fit-content; margin-top: 1.5rem; padding: 0.8rem 1.1rem; color: #f8f4e9; background: #a3482b; text-decoration: none; font: 700 0.9rem Arial, sans-serif; }
